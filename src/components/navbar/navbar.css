@@ -1,0 +1,26 @@
+.nav-logos {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#brand-logo {
+	position: absolute;
+	margin-left: 15px;
+	left: 0;
+
+	line-height: 50px;
+}
+
+.nav-logo {
+	margin: 10px;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+.option-logo img {
+	width: 100px;
+	height: 100px;
+}
