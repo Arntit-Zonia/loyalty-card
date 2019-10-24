@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav>
 			<ul>
 				<div className="nav-logos">
-					<li id="brand-logo" className="">
+					<li id="brand-logo" className="mr-auto">
 						Logo
 					</li>
 					<li className="nav-logo">

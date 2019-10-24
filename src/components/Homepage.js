@@ -6,7 +6,7 @@ import Discount from "./options/Discount";
 
 const Homepage = () => {
 	return (
-		<div className="container">
+		<>
 			<div className="row">
 				<div className="col-6">
 					<Stamps />
@@ -21,7 +21,7 @@ const Homepage = () => {
 					<Discount />
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

@@ -4,6 +4,7 @@ const Stamps = () => {
 	return (
 		<div className="option-logo">
 			<img src={stamp} alt="Stamps" />
+			<p className="lead">Stamps</p>
 		</div>
 	);
 };

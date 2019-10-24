@@ -4,6 +4,7 @@ const Juice = () => {
 	return (
 		<div className="option-logo">
 			<img src={juice} alt="Half price juice" />
+			<p className="lead">Half price juice</p>
 		</div>
 	);
 };
