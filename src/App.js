@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
+import "./loyalty-card.css";
 import Homepage from "./components/Homepage";
 import Navbar from "./components/navbar/Navbar";
 import StampRewards from "./rewards/StampRewards";

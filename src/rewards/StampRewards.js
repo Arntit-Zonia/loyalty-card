@@ -3,12 +3,12 @@ import React from "react";
 const StampRewards = () => {
 	return (
 		<>
-			<div>
-				<h2>Stamps</h2>
+			<div className="mt-4 container">
+				<h3>Stamps</h3>
 				<p className="lead">
 					Collect 10 stamps to receive a free coffee
 				</p>
-				<div>
+				<div className="qr-code">
 					<i className="fas fa-qrcode fa-10x"></i>
 				</div>
 			</div>

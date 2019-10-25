@@ -36,9 +36,15 @@ li {
 	text-decoration: none;
 }
 
+#options {
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
+}
+
 .option-logo {
-	position: relative;
 	width: 180px;
+	cursor: pointer;
 	background: lightskyblue;
 	text-align: center;
 	margin-top: 10px;
@@ -50,9 +56,34 @@ li {
 	max-height: 100px;
 }
 
-/* Normal Phone screen */
+.qr-code {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+/* Adjustments for different mobile screens */
+@media (max-width: 675px) {
+	#options {
+		margin: 20px 100px;
+	}
+}
+
+@media (max-width: 600px) {
+	#options {
+		margin: 20px 60px;
+	}
+}
+
+@media (max-width: 500px) {
+	#options {
+		margin: 20px;
+	}
+}
+
 @media (max-width: 395px) {
 	.nav-logo:last-child {
+		margin-left: 0;
 		margin-right: 20px;
 	}
 
@@ -70,7 +101,6 @@ li {
 	}
 }
 
-/* Smaller Phone screen */
 @media (max-width: 365px) {
 	#homepage {
 		margin-left: 20px;

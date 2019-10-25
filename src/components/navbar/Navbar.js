@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./navbar.css";
 import brandLogo from "./brand-logo/brand-logo.png";
 import Arrows from "./Arrows";
 

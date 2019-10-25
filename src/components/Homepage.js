@@ -8,17 +8,19 @@ const Homepage = () => {
 	return (
 		<>
 			<div id="homepage" className="row p-2">
-				<div className="col-6">
-					<Stamps />
-				</div>
-				<div className="col-6">
-					<Pastry />
-				</div>
-				<div className="col-6">
-					<Juice />
-				</div>
-				<div className="col-6">
-					<Discount />
+				<div id="options" className="py-md-4">
+					<div className="col-6">
+						<Stamps />
+					</div>
+					<div className="col-6">
+						<Pastry />
+					</div>
+					<div className="col-6">
+						<Juice />
+					</div>
+					<div className="col-6">
+						<Discount />
+					</div>
 				</div>
 			</div>
 		</>
