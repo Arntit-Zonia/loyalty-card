@@ -7,7 +7,7 @@ import Discount from "./options/Discount";
 const Homepage = () => {
 	return (
 		<>
-			<div className="row">
+			<div id="homepage" className="row p-2">
 				<div className="col-6">
 					<Stamps />
 				</div>

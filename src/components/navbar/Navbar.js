@@ -1,13 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./navbar.css";
+import brandLogo from "./brand-logo/brand-logo.png";
+import Arrows from "./Arrows";
 
 const Navbar = () => {
 	return (
 		<nav>
 			<ul>
 				<div className="nav-logos">
-					<li id="brand-logo" className="mr-auto">
-						Logo
+					<li id="brand-logo">
+						<Link to="/">
+							<img src={brandLogo} alt="Coffee" />
+						</Link>
 					</li>
 					<li className="nav-logo">
 						<i className="fas fa-search"></i>
@@ -20,6 +26,7 @@ const Navbar = () => {
 					</li>
 				</div>
 			</ul>
+			<Arrows />
 		</nav>
 	);
 };

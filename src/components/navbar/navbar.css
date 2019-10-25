@@ -1,17 +1,29 @@
-#homepage {
-}
-
 .nav-logos {
 	display: flex;
 	justify-content: flex-end;
 }
 
-#brand-logo {
-	line-height: 50px;
+#brand-logo img {
+	position: absolute;
+	left: 0;
+	margin-left: 15px;
+	max-width: 50px;
+	max-height: 50px;
 }
 
 .nav-logo {
+	font-size: 20px;
 	margin: 10px;
+}
+
+#arrows {
+	position: absolute;
+	top: 8%;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background: lightskyblue;
+	color: white;
 }
 
 li {
@@ -19,7 +31,13 @@ li {
 	list-style: none;
 }
 
+#homepage a {
+	color: black;
+	text-decoration: none;
+}
+
 .option-logo {
+	position: relative;
 	width: 180px;
 	background: lightskyblue;
 	text-align: center;
@@ -28,6 +46,52 @@ li {
 }
 
 .option-logo img {
-	width: 100px;
-	height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+/* Normal Phone screen */
+@media (max-width: 395px) {
+	.nav-logo:last-child {
+		margin-right: 20px;
+	}
+
+	#homepage {
+		margin: auto;
+	}
+
+	.option-logo {
+		width: 150px;
+	}
+
+	.option-logo img {
+		max-width: 80px;
+		max-height: 80px;
+	}
+}
+
+/* Smaller Phone screen */
+@media (max-width: 365px) {
+	#homepage {
+		margin-left: 20px;
+	}
+
+	.option-logo {
+		width: 120px;
+	}
+
+	.option-logo img {
+		max-width: 60px;
+		max-height: 60px;
+	}
+
+	.option-logo p {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 330px) {
+	#homepage {
+		margin: auto;
+	}
 }
